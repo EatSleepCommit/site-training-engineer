@@ -5,7 +5,7 @@ import { useState, useEffect, useCallback, useRef } from "react";
 // An AI Agent replacing Departmental Training Engineer
 // ═══════════════════════════════════════════════════════════════
 
-const GOOGLE_SCRIPT_URL = "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwUEka8I6EBol_iRQRupceIoTdV2MzlUG8nAzm5vVTlrvYi5Bf1jGkJ1CZc2A0-RLMK/exec";
 
 // ── Utility: Call Claude API via Netlify Function proxy ──
 async function callSITE(systemPrompt, userMessage) {
