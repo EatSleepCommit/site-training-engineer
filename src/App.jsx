@@ -1137,7 +1137,7 @@ export default function App() {
         {sidebarOpen && (
           <div style={{ padding: "12px 16px", borderTop: `1px solid ${theme.border}`, textAlign: "center" }}>
             <div style={{ fontSize: 10, color: theme.textMuted, letterSpacing: 1 }}>SAIL Digital Transformation</div>
-            <div style={{ fontSize: 9, color: theme.textMuted, marginTop: 2 }}>Powered by Claude AI</div>
+            <div style={{ fontSize: 9, color: theme.textMuted, marginTop: 2 }}>Developed : Feb' 26 </div>
           </div>
         )}
       </div>
